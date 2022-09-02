@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=PT+Serif:wght@400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Open Sans", sans-serif;
+
+    h1,
+    h2,
+    h3 {
+        font-family: "PT Serif", serif;
+    }
+}
+
+#skull-canvas {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.section {
+    position: static;
+    height: 100vh;
+}
+
+#section1 {
+    h1 {
+        font-size: 3rem;
+        margin: 6rem 0 0 4rem;
+    }
+}
+
+#section2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h2,
+    p {
+        align-self: flex-end;
+        text-align: right;
+        width: 40%;
+        margin-right: 5rem;
+    }
+}
